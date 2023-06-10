@@ -1,8 +1,86 @@
 @charset "UTF-8";
 
 
- /* #CE625A  ;
-  #9257DE;
-  #836CF5;
-  #629AFA;
- */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap');
+
+
+:root {
+
+  --cor0: #d7a8eb;
+  --cor1: #991CD1;
+  --cor2: #D4307A;
+
+
+  --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+  --fonte: 'Press Start 2P', cursive;
+  
+  
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2) );
+    min-height: 200px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte);
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte);
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    font-size: .6em;
+    margin: auto;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+
+}
+
+nav {
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.514);
+    
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+
+}
+
+nav > a:hover {
+    background-color: var(--cor0);
+    color: var(--cor1);
+}
+
+main > h2 {
+    font-family: var(--fonte);
+    font-size: .6em;
+}
