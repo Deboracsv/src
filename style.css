@@ -87,7 +87,7 @@ main {
     background-color:var(--cor0);
     text-align: justify;
     min-width: 300px;
-    max-width: 1050px;
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.219);
@@ -100,22 +100,16 @@ main > h2 {
     padding-top: 20px;
 }
 
-body > p {
-    background-color:var(--cor0);
-    text-align: justify;
-    min-width: 300px;
-    max-width: 1050px;
-    margin: auto;
-    margin-top: 115px;
-    padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+main > p {
+    padding-bottom: 40px;
+    font-size: 1em;
 }
-
+main > #paragrafo2 {
+    padding-top: 40px;
+}
 .content {
-    height: 300px;
-    margin-top: -60px;
-    margin-bottom: 250px;
-    width: 600px;
+    
+    margin-top: 10px;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
@@ -124,7 +118,6 @@ body > p {
     transform: translate(-50%, -50%);
     
     
-
 }
 
 .navigation {

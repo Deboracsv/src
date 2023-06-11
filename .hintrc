@@ -9,6 +9,8 @@
         "label": "off"
       }
     ],
-    "detect-css-reflows/composite": "off"
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/layout": "off",
+    "detect-css-reflows/paint": "off"
   }
 }
