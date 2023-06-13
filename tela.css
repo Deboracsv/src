@@ -5,6 +5,11 @@
         top: 100px;
     
     }
+    .box {
+        width: 170px;
+        height: 200px;
+        line-height: 200px;
+    }
 }
 
 @media  screen and (min-width:600px) {
@@ -13,6 +18,12 @@
         height: 300px;
         top: 150px;
         
+    }
+    .box {
+        width: 270px;
+        height: 340px;
+        line-height: 340px;
+        font-size: .8em;
     }
 }
 
