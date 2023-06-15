@@ -109,6 +109,7 @@ main > p {
     box-shadow: 2px 2px 2px #00ffff;
     padding-right: 4px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 main > #paragrafo2 {
@@ -209,7 +210,7 @@ a.externo::after {
     color: #00ffff ;
     text-shadow: 0px 0px 3px #00ffff;
     font-family: var(--fonte);
-    font-size: .4em;
+    font-size: .6em;
 }
 
 .voltar {
@@ -228,6 +229,24 @@ a.externo::after {
 }
 
 h5 {
+    color: white;
+}
+
+#html {
+    box-shadow: 0px 0px 7px white;
+    background-color: #ff7200;
+    color: white;
+}
+
+#css3 {
+    box-shadow: 0px 0px 7px white;
+    background-color: #006494;
+    color: white;
+}
+
+#javascript {
+    box-shadow: 0px 0px 7px white;
+    background-color: #dacb0f;
     color: white;
 }
 
